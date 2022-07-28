@@ -268,4 +268,122 @@
   line-height: 30px;
   display: inline-block;
 }
-
+.blog {
+  max-width: 1500px;
+  background: rgba(220, 220, 220, 0.5);
+  padding: 30px 0;
+}
+.blog-text {
+  padding: 15px;
+  margin-left: 220px;
+}
+.blog-text p {
+  font-family: 'Indie Flower', cursive;
+  color: purple;
+  padding-top: 30px;
+  font-weight: bold;
+}
+.blog-text h2 {
+  color: grey;
+  font-size: 24px;
+  padding-top: 15px;
+  letter-spacing: 2px;
+  padding-bottom: 30px;
+}
+.card {
+  display: flex;
+  justify-content: center;
+}
+.card1 {
+  width: 320px;
+  margin-top: 40px;
+  position: relative;
+  border-radius: 15px;
+  background: white;
+  margin: 0 25px;
+}
+.text1 {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background: purple;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 15px 0 0 0;
+  width: 25%;
+  position: absolute;
+}
+.card1 img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+.card1 h3 {
+  padding: 25px;
+  color: grey;
+  line-height: 30px;
+}
+.card1-item {
+  padding: 0 25px 35px 25px;
+  color: rgba(128, 128, 128, 0.8);
+}
+.card1-item1 {
+  display: inline-block;
+  float: left;
+}
+.card1-item2 {
+  display: inline-block;
+  float: right;
+}
+.card2 {
+  margin: 0 30px ;
+  display: inline-block;
+}
+.btn {
+  width: 200px;
+  height: 40px;
+  margin: 30px auto 20px;
+  color: purple;
+  background-color: white;
+  font-size: 16px;
+  border: 3px solid purple;
+  display: block;
+  text-align: center;
+  padding: 23px 0 0 0;
+  letter-spacing: 2px;
+  border-radius: 40px;
+}
+.company {
+  max-width: 1500px;
+}
+.company-text {
+  padding: 50px;
+  margin-left: 280px;
+}
+.company-text p {
+  font-family: 'Indie Flower', cursive;
+  color: purple;
+  padding-top: 30px;
+  font-weight: bold;
+}
+.company-text h2 {
+  color: grey;
+  font-size: 24px;
+  padding-top: 15px;
+  letter-spacing: 2px;
+  
+}
+.table {
+  width: 800px;
+  height: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.table th {
+  color: gray;
+  text-align: left;
+}
+.table td {
+  color: rgba(128, 128, 128, 0.9);
+}
