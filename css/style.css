@@ -198,7 +198,7 @@
   grid-column: 1/2;
   padding: 50px;
   background-color: purple;
-  display: inline-block;
+  
 }
 .service-item1 img {
   width: 150px;
@@ -234,15 +234,14 @@
   font-size: 20px;
   padding-top: 30px;
   margin-left: 20px;
-  display: inline-block;
+  
 }
 .service-item2 p {
   font-size: 16px;
   padding-top: 30px;
   margin-left: 20px;
   line-height: 30px;
-  display: inline-block;
-}
+}  
 .service-item3 {
   grid-row: 2/3;
   grid-column: 2/3;
@@ -259,14 +258,14 @@
   font-size: 20px;
   padding-top: 30px;
   margin-left: 20px;
-  display: inline-block;
+  
 } 
 .service-item3 p {
   font-size: 16px;
   padding-top: 30px;
   margin-left: 20px;
   line-height: 30px;
-  display: inline-block;
+  
 }
 .blog {
   max-width: 1500px;
