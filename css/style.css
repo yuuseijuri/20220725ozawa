@@ -372,18 +372,89 @@
   font-size: 24px;
   padding-top: 15px;
   letter-spacing: 2px;
-  
 }
 .table {
   width: 800px;
   height: 400px;
-  margin: 0 auto;
-  padding: 20px;
+  margin: 0 auto 80px;
 }
 .table th {
   color: gray;
   text-align: left;
+  padding-top: 25px;
+  padding-left: 25px;
+  background-color: rgba(220, 220, 220, 0.5);
 }
 .table td {
   color: rgba(128, 128, 128, 0.9);
+  padding-left: 25px;
+}
+th, td {
+  border: 2px solid rgba(128, 128, 128, 0.3);
+}
+.photo {
+  max-width: 1500px;
+  display: flex;
+  justify-content: flex-start
+}
+.photo1, .photo2 {
+  position: relative;
+}
+.photo-list1, .photo-list2 {
+  width: 750px;
+}
+.photo1 h2, .photo2 h2 {
+  color: white;
+  font-size: 32px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+footer p {
+  color: rgba(128, 128, 128);
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 80px;
+  text-align: center;
+}
+.btn1 {
+  width: 280px;
+  height: 50px;
+  background: linear-gradient(90deg, #c71585, #FF1493);
+  border-radius: 40px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+  padding-top: 35px;
+  box-shadow: 5px 5px 3px ;
+  display: block;
+  margin: 20px auto 80px;
+  position: relative;
+}
+.btn1::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 35px;
+  background: url(../img/mailicon.svg) no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  transform: translate(0, -50%);
+}
+.spans {
+  border-left: 3px solid #c71585;
+  font-size: 38px;
+  
+}
+small {
+  max-width: 1500px;
+  padding: 20px 0;
+  font-size: 14px;
+  color: rgba(128, 128, 128);
+  background-color: rgba(220, 220, 220, 0.5);
+  text-align: center;
+  display: block;
 }
