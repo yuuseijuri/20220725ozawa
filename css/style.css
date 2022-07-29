@@ -415,7 +415,8 @@ footer p {
   color: rgba(128, 128, 128);
   font-size: 20px;
   font-weight: bold;
-  margin-top: 80px;
+  margin-top: 70px;
+  margin-bottom: 30px;
   text-align: center;
 }
 .btn1 {
@@ -428,9 +429,9 @@ footer p {
   letter-spacing: 1px;
   text-align: center;
   padding-top: 35px;
-  box-shadow: 5px 5px 3px ;
+  box-shadow: 5px 5px 3px #c71585;
   display: block;
-  margin: 20px auto 80px;
+  margin: 30px auto 80px;
   position: relative;
 }
 .btn1::before {
@@ -446,8 +447,7 @@ footer p {
 }
 .spans {
   border-left: 3px solid #c71585;
-  font-size: 38px;
-  
+  font-size: 28px;
 }
 small {
   max-width: 1500px;
@@ -457,4 +457,7 @@ small {
   background-color: rgba(220, 220, 220, 0.5);
   text-align: center;
   display: block;
+}
+footer {
+  text-align: center;
 }
