@@ -393,7 +393,7 @@ th, td {
   border: 2px solid rgba(128, 128, 128, 0.3);
 }
 .photo {
-  max-width: 1500px;
+  max-width: 100%;
   display: flex;
   justify-content: flex-start
 }
@@ -401,7 +401,7 @@ th, td {
   position: relative;
 }
 .photo-list1, .photo-list2 {
-  width: 750px;
+  width: 100%;
 }
 .photo1 h2, .photo2 h2 {
   color: white;
